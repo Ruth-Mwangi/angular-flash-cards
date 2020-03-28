@@ -1,0 +1,8 @@
+<h1>Flash Cards</h1>
+<h4>Click on title to see details!</h4>
+<ul>
+    <div *ngFor="let card of cards; let i=index">
+        <li (click)='toggleDescription(i)'>{{card.name}}</li>
+        <app-card-detail *ngIf="card.showDescription" [card]='card'></app-card-detail>
+    </div>
+</ul>

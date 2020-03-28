@@ -1,0 +1,20 @@
+li{
+    cursor: pointer;
+    color: darkblue;
+    list-style: none;
+    font-family: monospace;
+}
+ul{
+    border: black solid 2px;
+    width: 50%;
+   
+    
+
+}
+h1{
+    font-family: monospace;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+
+}
